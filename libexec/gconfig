@@ -1,4 +1,6 @@
-VM_SSH_PORT=2223
+VM_SSH_PORT=22
+VM_HOST=10.0.2.10
+VM_TAP=tap0
 if [ -z "$LXC_EXECUTE" ]; then
   LXC_EXECUTE=lxc-start
 fi
